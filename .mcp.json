@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "prompt-code": {
+      "command": "node",
+      "args": [
+        "mcp-server/server.mjs"
+      ]
+    }
+  }
+}
