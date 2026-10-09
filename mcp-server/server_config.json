@@ -1,0 +1,69 @@
+{
+  "app": {
+    "name": "prompt-code",
+    "version": "unknown",
+    "description": ""
+  },
+  "stack": "node",
+  "routes": [
+    {
+      "method": "get",
+      "path": "/api"
+    },
+    {
+      "method": "get",
+      "path": "/api/health"
+    },
+    {
+      "method": "get",
+      "path": "/api/seed"
+    },
+    {
+      "method": "get",
+      "path": "/api/:collection"
+    },
+    {
+      "method": "post",
+      "path": "/api/:collection"
+    },
+    {
+      "method": "get",
+      "path": "/api/:collection/:id"
+    },
+    {
+      "method": "post",
+      "path": "/api/:collection/add"
+    },
+    {
+      "method": "put",
+      "path": "/api/:collection/:id"
+    },
+    {
+      "method": "delete",
+      "path": "/api/:collection/:id"
+    },
+    {
+      "method": "get",
+      "path": "/api/settings/key/:name"
+    },
+    {
+      "method": "post",
+      "path": "/api/settings/key/:name"
+    },
+    {
+      "method": "get",
+      "path": "/api/settings/pin-hash"
+    },
+    {
+      "method": "post",
+      "path": "/api/settings/pin-hash"
+    }
+  ],
+  "pages": [],
+  "base_url": "http://localhost:3000",
+  "module": null,
+  "scripts": {},
+  "server": "mcp-server/server.mjs",
+  "runner": "node",
+  "runner_cmd": "node"
+}
