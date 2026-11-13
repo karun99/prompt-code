@@ -7,7 +7,9 @@
     "start": "node server.js",
     "dev": "vercel dev",
     "build": "echo 'No build needed'",
-    "deploy": "vercel deploy --prod"
+    "deploy": "vercel deploy --prod",
+    "test": "node --test \"test/*.test.js\"",
+    "test:coverage": "node --test --experimental-test-coverage \"test/*.test.js\""
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
